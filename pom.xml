@@ -89,6 +89,18 @@
                 <version>${ehcache-core.version}</version>
             </dependency>
 
+            <!-- For engine and samples using Hazelcast -->
+            <dependency>
+                <groupId>com.hazelcast</groupId>
+                <artifactId>hazelcast</artifactId>
+                <version>${hazelcast-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.hazelcast</groupId>
+                <artifactId>hazelcast-client</artifactId>
+                <version>${hazelcast-core.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>javax.servlet</groupId>
                 <artifactId>servlet-api</artifactId>
@@ -271,6 +283,7 @@
         <mockito.version>1.9.5</mockito.version>
 		<yuicompressor.version>2.3.6</yuicompressor.version>
 		<ehcache-core.version>2.5.3</ehcache-core.version>
+        <hazelcast-core.version>3.2</hazelcast-core.version>
         <thymeleaf-version>2.0.19</thymeleaf-version>
 
 		<slf4j.version>1.7.5</slf4j.version>
